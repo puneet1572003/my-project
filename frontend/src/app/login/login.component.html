@@ -1,0 +1,20 @@
+<div class="login-container">
+    <h2 class="looo">Login</h2>
+    <form [formGroup]="peopleForm">
+        <div class="form-group">
+            <label class="goj-e" for="email">Email_id:</label>
+            <input type="email" id="email" placeholder="Enter email" class="doioe" formControlName="email" name="email"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label class="goj-e" for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" formControlName="password" name="password"
+                required>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-warning btn-lg" (click)="login()">Submit</button>
+        </div>
+    </form>
+</div>

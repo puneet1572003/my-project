@@ -37,10 +37,10 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
-frontend/form/.vscode
-frontend/form/.angular
+frontend/.vscode
+frontend/.angular
 # Dependency directories
-frontend/form/node_modules/
+frontend/node_modules/
 backend/node_modules/
 jspm_packages/
 
